@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "gilroy";
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.page1{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(3, 3, 3);
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 14px 30px;
+    color: white;
+}
+.nav h1{
+    font-size: 30px;
+    font-weight: 600;
+}
+.nav .nR{
+    display: flex;
+    gap: 30px;
+    text-decoration: none;
+    font-size: large;
+}
+.nR a{
+    text-decoration: none;
+    font-size: large;
+    font-weight: 500;
+    color: #fff;
+}
